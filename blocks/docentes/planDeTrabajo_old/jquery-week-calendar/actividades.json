@@ -1,0 +1,14 @@
+{
+  "events" : [
+    {"id":1, "start": "14/7/2015 7:00:00", "end": "14/7/2015 8:00:00", "title": "Reunión Salon 502", "id_lugar": "001", "lugar":"Simon Bolivar", "tipo_carga":0, "carga":"asignada", "readonly": true},
+    {"id":2, "start": "14/7/2015 10:00:00", "end": "14/7/2015 12:00:00", "title": "Clase 00", "id_lugar": "002", "lugar":"Salon del sabio", "tipo_carga":1, "carga":"sin asignar"},
+    {"id":3, "start": "15/7/2015 10:00:00", "end": "15/7/2015 12:00:00", "title": "Clase 2", "id_lugar": "100", "lugar":"Pepe", "tipo_carga":1, "carga":"sin asignar"},
+    {"id":4, "start": "15/7/2015 12:00:00", "end": "15/7/2015 14:00:00", "title": "Clase 3", "id_lugar": "999", "lugar":"Mujica", "tipo_carga":1, "carga":"sin asignar"},
+    {"id":5, "start": "15/7/2015 14:00:00", "end": "15/7/2015 20:00:00", "title": "Clase 5", "id_lugar": "1000", "lugar":"Mujica", "tipo_carga":1, "carga":"sin asignar"}
+  ],
+  "freebusys": [
+    {"start": "18/7/2015 00:00:00", "end": "18/7/2015 24:00:00", "free": false},
+    {"start": "19/7/2015 00:00:00", "end": "19/7/2015 24:00:00", "free": false}
+  ],
+  "numMaxHoras": 30
+}
