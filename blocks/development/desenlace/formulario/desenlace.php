@@ -3,7 +3,7 @@
  * IMPORTANTE: Este formulario está utilizando jquery. Por tanto en el archivo ready.php se delaran algunas funciones js
  * que lo complementan.
  */
-
+$_REQUEST['tiempo']=time();
 // Rescatar los datos de este bloque
 $esteBloque = $this->miConfigurador->getVariableConfiguracion ( "esteBloque" );
 
@@ -117,6 +117,7 @@ $valorCodificado .= "&bloqueGrupo=" . $esteBloque ["grupo"];
  * (a) invocando a la variable $_REQUEST ['tiempo'] que se ha declarado en ready.php o
  * (b) asociando el tiempo en que se está creando el formulario
  */ 
+
 $valorCodificado .= "&tiempo=" . $_REQUEST ['tiempo'];
 //Paso 2: codificar la cadena resultante
 $valorCodificado = $this->miConfigurador->fabricaConexiones->crypto->codificar ( $valorCodificado );
